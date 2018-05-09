@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_minian"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Minián" />
+        <item
+            android:id="@+id/nav_bendicionesYRezos"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Bendiciones y Rezos" />
+        <item
+            android:id="@+id/nav_conversores"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Conversores" />
+        <item
+            android:id="@+id/nav_calendario"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Calendario" />
+        <item
+            android:id="@+id/nav_horarios"
+            android:title="Horarios"
+            ></item>
+    </group>
+
+
+
+</menu>
+

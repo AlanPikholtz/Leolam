@@ -1,0 +1,32 @@
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/BotonMapa"
+        android:text="Ver Mapa con minián cercano"
+        android:onClick="PresionoMenu"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/BotonListaMinián"
+        android:text="Ver lista minián"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/BotonUbicación"
+        android:text="Ver ubicacion actual"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/CrearMinian"
+        android:text="Crear Minian"
+        />
+
+</LinearLayout>
